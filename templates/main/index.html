@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+     .btn-dark {
+    background-image: linear-gradient(#4568DC,#B06AB3);
+    }
+    .btn-dark:hover{
+    background-image: linear-gradient(#5f2c82,#49a09d);
+    transform: scale(1.2);
+    transition:0.4s;
+    }
+    .btn.btn-dark {
+    border-radius: 20px;
+    }
+    </style>
+    
+</head>
+<body>
+{% extends 'base.html' %}
+{% block content %}
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Welcome to Poll App</h1>
+        <p>This is Django Poll App</p>
+        <a class="btn btn-dark" href="{% url 'polls:index' %}">View Available Polls</a>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>
