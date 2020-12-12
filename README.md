@@ -1,5 +1,5 @@
 # Poll_App
-<h2>Django Polling App + Charts</h2>
+<h2>Django Polling App + ZingChart</h2>
 <img src="1.png" height=400px>
 <img src="2.png" height=400px>
 <img src="3.png" height=400px>
